@@ -1,0 +1,41 @@
+[1.491s] Invoking command in '/home/projects/behavioral_cloning_ws/src/data_acquisition': PYTHONPATH=/home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_acquisition build --build-base /home/projects/behavioral_cloning_ws/build/data_acquisition/build install --prefix /home/projects/behavioral_cloning_ws/install/data_acquisition --record /home/projects/behavioral_cloning_ws/build/data_acquisition/install.log --single-version-externally-managed
+[2.120s] running egg_info
+[2.121s] creating ../../build/data_acquisition/data_acquisition.egg-info
+[2.121s] writing ../../build/data_acquisition/data_acquisition.egg-info/PKG-INFO
+[2.121s] writing dependency_links to ../../build/data_acquisition/data_acquisition.egg-info/dependency_links.txt
+[2.122s] writing entry points to ../../build/data_acquisition/data_acquisition.egg-info/entry_points.txt
+[2.122s] writing requirements to ../../build/data_acquisition/data_acquisition.egg-info/requires.txt
+[2.122s] writing top-level names to ../../build/data_acquisition/data_acquisition.egg-info/top_level.txt
+[2.124s] writing manifest file '../../build/data_acquisition/data_acquisition.egg-info/SOURCES.txt'
+[2.195s] reading manifest file '../../build/data_acquisition/data_acquisition.egg-info/SOURCES.txt'
+[2.196s] writing manifest file '../../build/data_acquisition/data_acquisition.egg-info/SOURCES.txt'
+[2.196s] running build
+[2.197s] running build_py
+[2.197s] creating /home/projects/behavioral_cloning_ws/build/data_acquisition/build
+[2.197s] creating /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib
+[2.197s] creating /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition
+[2.197s] copying data_acquisition/__init__.py -> /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition
+[2.198s] copying data_acquisition/data_acquisition_node.py -> /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition
+[2.198s] running install
+[2.200s] running install_lib
+[2.201s] creating /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition
+[2.202s] copying /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition/__init__.py -> /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition
+[2.202s] copying /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition/data_acquisition_node.py -> /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition
+[2.204s] byte-compiling /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition/__init__.py to __init__.cpython-38.pyc
+[2.206s] byte-compiling /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition/data_acquisition_node.py to data_acquisition_node.cpython-38.pyc
+[2.209s] running install_data
+[2.211s] creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index
+[2.211s] creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index/resource_index
+[2.211s] creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index/resource_index/packages
+[2.212s] copying resource/data_acquisition -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index/resource_index/packages
+[2.212s] copying package.xml -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition
+[2.212s] creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/launch
+[2.212s] copying launch/data_acquisition.launch.py -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/launch
+[2.212s] creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/config
+[2.212s] copying config/params.yaml -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/config
+[2.213s] running install_egg_info
+[2.215s] Copying ../../build/data_acquisition/data_acquisition.egg-info to /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition-0.0.0-py3.8.egg-info
+[2.217s] running install_scripts
+[2.254s] Installing data_acquisition_node script to /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/data_acquisition
+[2.255s] writing list of installed files to '/home/projects/behavioral_cloning_ws/build/data_acquisition/install.log'
+[2.312s] Invoked command in '/home/projects/behavioral_cloning_ws/src/data_acquisition' returned '0': PYTHONPATH=/home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_acquisition build --build-base /home/projects/behavioral_cloning_ws/build/data_acquisition/build install --prefix /home/projects/behavioral_cloning_ws/install/data_acquisition --record /home/projects/behavioral_cloning_ws/build/data_acquisition/install.log --single-version-externally-managed

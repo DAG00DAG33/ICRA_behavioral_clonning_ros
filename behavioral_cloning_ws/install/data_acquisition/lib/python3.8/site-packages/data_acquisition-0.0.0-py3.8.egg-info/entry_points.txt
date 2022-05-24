@@ -1,0 +1,3 @@
+[console_scripts]
+data_acquisition_node = data_acquisition.data_acquisition_node:main
+

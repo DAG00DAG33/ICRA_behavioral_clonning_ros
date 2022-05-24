@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/data_acquisition/data_acquisition.egg-info
+writing ../../build/data_acquisition/data_acquisition.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_acquisition/data_acquisition.egg-info/dependency_links.txt
+writing entry points to ../../build/data_acquisition/data_acquisition.egg-info/entry_points.txt
+writing requirements to ../../build/data_acquisition/data_acquisition.egg-info/requires.txt
+writing top-level names to ../../build/data_acquisition/data_acquisition.egg-info/top_level.txt
+writing manifest file '../../build/data_acquisition/data_acquisition.egg-info/SOURCES.txt'
+reading manifest file '../../build/data_acquisition/data_acquisition.egg-info/SOURCES.txt'
+writing manifest file '../../build/data_acquisition/data_acquisition.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/projects/behavioral_cloning_ws/build/data_acquisition/build
+creating /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib
+creating /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition
+copying data_acquisition/__init__.py -> /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition
+copying data_acquisition/data_acquisition_node.py -> /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition
+running install
+running install_lib
+creating /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition
+copying /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition/__init__.py -> /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition
+copying /home/projects/behavioral_cloning_ws/build/data_acquisition/build/lib/data_acquisition/data_acquisition_node.py -> /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition
+byte-compiling /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition/data_acquisition_node.py to data_acquisition_node.cpython-38.pyc
+running install_data
+creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index
+creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index/resource_index
+creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index/resource_index/packages
+copying resource/data_acquisition -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/ament_index/resource_index/packages
+copying package.xml -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition
+creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/launch
+copying launch/data_acquisition.launch.py -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/launch
+creating /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/config
+copying config/params.yaml -> /home/projects/behavioral_cloning_ws/install/data_acquisition/share/data_acquisition/config
+running install_egg_info
+Copying ../../build/data_acquisition/data_acquisition.egg-info to /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/python3.8/site-packages/data_acquisition-0.0.0-py3.8.egg-info
+running install_scripts
+Installing data_acquisition_node script to /home/projects/behavioral_cloning_ws/install/data_acquisition/lib/data_acquisition
+writing list of installed files to '/home/projects/behavioral_cloning_ws/build/data_acquisition/install.log'
