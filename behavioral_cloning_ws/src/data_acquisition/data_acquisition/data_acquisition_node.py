@@ -30,7 +30,7 @@ class Data_adquisition_node(Node):
                 ('frecuency', 0.1),
                 ('max_speed', 2),
                 ('initial_count', 0),
-                ('data_dir', 'home/data/testing/')
+                ('data_dir', '/home/data/testing/')
             ])
 
         self.max_distance=self.get_parameter('max_distance').value
@@ -47,15 +47,15 @@ class Data_adquisition_node(Node):
         if time.time() - self.last_msg_time > self.frecuency:
             self.last_msg_time = time.time()
             ranges = [range if range < self.max_distance else self.max_distance for range in laser.ranges]
-            for i in reversed(range(len(ranges))):
-                if i > 135 and i < 225:
-                    ranges.pop(i)
+            #for i in reversed(range(len(ranges))):
+                #if i > 135 and i < 225:
+                    #ranges.pop(i)
             ranges = np.array(ranges)
             #self.get_logger().info('drive: {}'.format(drive))
             #self.get_logger().info('ranges: {}'.format(ranges))
             #self.get_logger().info('time: {}'.format(time.time())
             labels = np.array([drive.drive.speed / self.max_speed, drive.drive.steering_angle])
-            self.get_logger().info('Y: {}'.format(labels))
+            self.get_logger().info('{} ->Y: {}'.format(self.count, labels))
             np.save(self.data_dir + 'Y_' + str(self.count) + '.npy' , labels)
             np.save(self.data_dir + 'X_' + str(self.count) + '.npy' , ranges)
             self.count += 1

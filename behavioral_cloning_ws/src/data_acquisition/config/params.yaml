@@ -1,7 +1,7 @@
 /**:
     ros__parameters:
         max_distance: 10
-        frequency: 0.1
+        frequency: 0.02
         max_speed: 5
-        initial_count: 0
-        data_dir: '/home/data/testing/'
+        initial_count: 2300
+        data_dir: '/home/data/testing5/'
